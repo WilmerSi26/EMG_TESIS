@@ -1,0 +1,14 @@
+No se pudo convertir automaticamente la RNN/LSTM a TFLite.
+
+El modelo Keras si fue guardado y puede usarse en PC.
+Para XIAO ESP32S3/TensorFlow Lite Micro conviene entrenar un modelo mas compacto, por ejemplo MLP o CNN 1D sobre ventanas/caracteristicas.
+
+Detalle tecnico:
+<unknown>:0: error: loc(callsite(fused["TensorListReserve:", "sequential_1/lstm_1/TensorArrayV2_1@__inference_function_23949"] at callsite(fused["StatefulPartitionedCall:", "StatefulPartitionedCall@__inference_signature_wrapper_23988"] at fused["StatefulPartitionedCall:", "StatefulPartitionedCall_1"]))): 'tf.TensorListReserve' op requires element_shape to be static during TF Lite transformation pass
+<unknown>:0: note: loc(callsite(fused["StatefulPartitionedCall:", "StatefulPartitionedCall@__inference_signature_wrapper_23988"] at fused["StatefulPartitionedCall:", "StatefulPartitionedCall_1"])): called from
+<unknown>:0: note: loc(fused["StatefulPartitionedCall:", "StatefulPartitionedCall_1"]): called from
+<unknown>:0: error: loc(callsite(fused["TensorListReserve:", "sequential_1/lstm_1/TensorArrayV2_1@__inference_function_23949"] at callsite(fused["StatefulPartitionedCall:", "StatefulPartitionedCall@__inference_signature_wrapper_23988"] at fused["StatefulPartitionedCall:", "StatefulPartitionedCall_1"]))): failed to legalize operation 'tf.TensorListReserve' that was explicitly marked illegal
+<unknown>:0: note: loc(callsite(fused["StatefulPartitionedCall:", "StatefulPartitionedCall@__inference_signature_wrapper_23988"] at fused["StatefulPartitionedCall:", "StatefulPartitionedCall_1"])): called from
+<unknown>:0: note: loc(fused["StatefulPartitionedCall:", "StatefulPartitionedCall_1"]): called from
+<unknown>:0: error: Lowering tensor list ops is failed. Please consider using Select TF ops and disabling `_experimental_lower_tensor_list_ops` flag in the TFLite converter object. For example, converter.target_spec.supported_ops = [tf.lite.OpsSet.TFLITE_BUILTINS, tf.lite.OpsSet.SELECT_TF_OPS]\n converter._experimental_lower_tensor_list_ops = False
+

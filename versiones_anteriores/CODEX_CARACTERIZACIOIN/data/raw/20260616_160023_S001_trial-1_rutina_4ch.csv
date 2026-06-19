@@ -1,0 +1,1 @@
+pc_timestamp,elapsed_seconds,device_timestamp_ms,sample_index,emg_ch1,emg_ch2,emg_ch3,emg_ch4,emg_filt_ch1,emg_filt_ch2,emg_filt_ch3,emg_filt_ch4,movement_label,routine_step,trial_number,subject_id,board_id,sampling_rate_hz

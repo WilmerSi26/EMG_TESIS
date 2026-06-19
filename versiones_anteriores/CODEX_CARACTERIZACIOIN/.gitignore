@@ -1,0 +1,9 @@
+﻿__pycache__/
+*.pyc
+*.pyo
+.venv/
+.venv-training/
+.idea/
+tools/
+models/emg_sklearn_baseline.joblib
+models/archive_20260609_101437_before_reposo/emg_sklearn_baseline.joblib

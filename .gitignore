@@ -1,6 +1,7 @@
-# Entornos locales
+﻿# Entornos locales
 .venv/
 .venv-tf/
+.venv-training/
 venv/
 env/
 
@@ -38,3 +39,9 @@ models/baseline/emg_sklearn_baseline.joblib
 models/baseline_final/emg_sklearn_baseline.joblib
 models/baseline_realtime/emg_sklearn_baseline.joblib
 models/rf_final/emg_rf_final.joblib
+
+# Instaladores/runtimes portables de versiones antiguas
+**/tools/downloads/
+**/tools/Python*/
+versiones_anteriores/**/emg_sklearn_baseline.joblib
+

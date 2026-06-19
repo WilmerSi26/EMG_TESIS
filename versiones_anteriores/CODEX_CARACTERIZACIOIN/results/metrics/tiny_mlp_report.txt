@@ -1,0 +1,20 @@
+                       precision    recall  f1-score   support
+
+             apertura       0.90      0.83      0.86       380
+               cierre       0.95      0.89      0.92       378
+ dedo_anular_apertura       0.69      0.64      0.67       380
+   dedo_anular_cierre       0.89      0.87      0.88       381
+ dedo_indice_apertura       0.84      0.83      0.84       378
+   dedo_indice_cierre       0.71      0.71      0.71       379
+  dedo_medio_apertura       0.77      0.83      0.80       378
+    dedo_medio_cierre       0.79      0.78      0.78       378
+dedo_menique_apertura       0.76      0.91      0.83       378
+  dedo_menique_cierre       0.51      0.74      0.60       377
+ dedo_pulgar_apertura       0.74      0.64      0.69       380
+   dedo_pulgar_cierre       0.67      0.80      0.73       379
+                pinza       0.73      0.67      0.70       507
+               reposo       0.93      0.87      0.90      2368
+
+             accuracy                           0.81      7421
+            macro avg       0.78      0.79      0.78      7421
+         weighted avg       0.82      0.81      0.81      7421

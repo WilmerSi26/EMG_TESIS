@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-06-06T11:17:26",
+  "model_type": "LSTM",
+  "window_size": 200,
+  "stride": 50,
+  "channels": [
+    "emg_ch1",
+    "emg_ch2",
+    "emg_ch3",
+    "emg_ch4"
+  ],
+  "labels": [
+    "apertura",
+    "cierre",
+    "dedo_anular",
+    "dedo_indice",
+    "dedo_medio",
+    "dedo_menique",
+    "dedo_pulgar",
+    "pinza"
+  ],
+  "class_counts_windows": {
+    "dedo_anular": 1387,
+    "dedo_menique": 1387,
+    "dedo_pulgar": 1385,
+    "dedo_indice": 1385,
+    "dedo_medio": 1385,
+    "pinza": 1278,
+    "apertura": 955,
+    "cierre": 898
+  },
+  "test_accuracy": 0.7022863030433655,
+  "test_loss": 0.7764886617660522,
+  "scaler_mean": [
+    1772.377085611332,
+    1779.3457821819086,
+    1766.3871732107357,
+    1751.4355361580517
+  ],
+  "scaler_scale": [
+    208.17411827964324,
+    492.219653835865,
+    239.54623036298534,
+    279.8159717829781
+  ],
+  "input_dir": "D:\\ESPOCH\\TESIS\\CODEX\\CARACTERIZACIOIN\\data\\raw"
+}
