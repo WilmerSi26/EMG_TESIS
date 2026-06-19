@@ -1,0 +1,311 @@
+{
+  "created_at": "2026-06-18T21:56:23",
+  "input_dir": "D:\\ESPOCH\\TESIS\\CARACTERIZACION_FINAL\\data\\pilot_remap_14_to_10",
+  "output_dir": "D:\\ESPOCH\\TESIS\\CARACTERIZACION_FINAL\\data\\pilot_remap_14_to_10_200hz",
+  "factor": 5,
+  "target_rate": 200,
+  "input_file_count": 16,
+  "output_file_count": 16,
+  "global_counts": {
+    "anular_menique_apertura": 39012,
+    "anular_menique_cierre": 39037,
+    "apertura": 19560,
+    "cierre": 19456,
+    "indice_medio_apertura": 38919,
+    "indice_medio_cierre": 38982,
+    "pinza": 25916,
+    "pulgar_apertura": 19552,
+    "pulgar_cierre": 19521,
+    "reposo": 126262
+  },
+  "files": [
+    {
+      "source_file": "20260609_092541_S001_trial-1_piloto_10clases.csv",
+      "output_file": "20260609_092541_S001_trial-1_piloto_10clases_200hz.csv",
+      "input_rows": 121328,
+      "output_rows": 24276,
+      "labels": {
+        "anular_menique_apertura": 2435,
+        "anular_menique_cierre": 2421,
+        "apertura": 1226,
+        "cierre": 1242,
+        "indice_medio_apertura": 2457,
+        "indice_medio_cierre": 2423,
+        "pinza": 1603,
+        "pulgar_apertura": 1239,
+        "pulgar_cierre": 1247,
+        "reposo": 7983
+      }
+    },
+    {
+      "source_file": "20260609_092751_S001_trial-1_piloto_10clases.csv",
+      "output_file": "20260609_092751_S001_trial-1_piloto_10clases_200hz.csv",
+      "input_rows": 121190,
+      "output_rows": 24247,
+      "labels": {
+        "anular_menique_apertura": 2436,
+        "anular_menique_cierre": 2409,
+        "apertura": 1238,
+        "cierre": 1208,
+        "indice_medio_apertura": 2431,
+        "indice_medio_cierre": 2457,
+        "pinza": 1668,
+        "pulgar_apertura": 1247,
+        "pulgar_cierre": 1222,
+        "reposo": 7931
+      }
+    },
+    {
+      "source_file": "20260609_095329_S001_trial-1_piloto_10clases.csv",
+      "output_file": "20260609_095329_S001_trial-1_piloto_10clases_200hz.csv",
+      "input_rows": 121310,
+      "output_rows": 24272,
+      "labels": {
+        "anular_menique_apertura": 2440,
+        "anular_menique_cierre": 2460,
+        "apertura": 1244,
+        "cierre": 1202,
+        "indice_medio_apertura": 2426,
+        "indice_medio_cierre": 2419,
+        "pinza": 1623,
+        "pulgar_apertura": 1251,
+        "pulgar_cierre": 1213,
+        "reposo": 7994
+      }
+    },
+    {
+      "source_file": "20260609_095538_S001_trial-1_piloto_10clases.csv",
+      "output_file": "20260609_095538_S001_trial-1_piloto_10clases_200hz.csv",
+      "input_rows": 120932,
+      "output_rows": 24199,
+      "labels": {
+        "anular_menique_apertura": 2425,
+        "anular_menique_cierre": 2429,
+        "apertura": 1206,
+        "cierre": 1222,
+        "indice_medio_apertura": 2432,
+        "indice_medio_cierre": 2444,
+        "pinza": 1615,
+        "pulgar_apertura": 1215,
+        "pulgar_cierre": 1230,
+        "reposo": 7981
+      }
+    },
+    {
+      "source_file": "20260609_095754_S001_trial-1_piloto_10clases.csv",
+      "output_file": "20260609_095754_S001_trial-1_piloto_10clases_200hz.csv",
+      "input_rows": 121338,
+      "output_rows": 24280,
+      "labels": {
+        "anular_menique_apertura": 2461,
+        "anular_menique_cierre": 2461,
+        "apertura": 1254,
+        "cierre": 1247,
+        "indice_medio_apertura": 2458,
+        "indice_medio_cierre": 2433,
+        "pinza": 1612,
+        "pulgar_apertura": 1208,
+        "pulgar_cierre": 1221,
+        "reposo": 7925
+      }
+    },
+    {
+      "source_file": "20260609_102908_S001_trial-1_piloto_10clases.csv",
+      "output_file": "20260609_102908_S001_trial-1_piloto_10clases_200hz.csv",
+      "input_rows": 120942,
+      "output_rows": 24198,
+      "labels": {
+        "anular_menique_apertura": 2463,
+        "anular_menique_cierre": 2437,
+        "apertura": 1214,
+        "cierre": 1200,
+        "indice_medio_apertura": 2453,
+        "indice_medio_cierre": 2438,
+        "pinza": 1626,
+        "pulgar_apertura": 1230,
+        "pulgar_cierre": 1220,
+        "reposo": 7917
+      }
+    },
+    {
+      "source_file": "20260609_103116_S001_trial-1_piloto_10clases.csv",
+      "output_file": "20260609_103116_S001_trial-1_piloto_10clases_200hz.csv",
+      "input_rows": 121352,
+      "output_rows": 24280,
+      "labels": {
+        "anular_menique_apertura": 2433,
+        "anular_menique_cierre": 2446,
+        "apertura": 1241,
+        "cierre": 1216,
+        "indice_medio_apertura": 2425,
+        "indice_medio_cierre": 2456,
+        "pinza": 1637,
+        "pulgar_apertura": 1242,
+        "pulgar_cierre": 1228,
+        "reposo": 7956
+      }
+    },
+    {
+      "source_file": "20260609_103324_S001_trial-1_piloto_10clases.csv",
+      "output_file": "20260609_103324_S001_trial-1_piloto_10clases_200hz.csv",
+      "input_rows": 120711,
+      "output_rows": 24154,
+      "labels": {
+        "anular_menique_apertura": 2480,
+        "anular_menique_cierre": 2432,
+        "apertura": 1216,
+        "cierre": 1243,
+        "indice_medio_apertura": 2432,
+        "indice_medio_cierre": 2433,
+        "pinza": 1608,
+        "pulgar_apertura": 1209,
+        "pulgar_cierre": 1210,
+        "reposo": 7891
+      }
+    },
+    {
+      "source_file": "20260609_201151_S001_trial-1_piloto_10clases.csv",
+      "output_file": "20260609_201151_S001_trial-1_piloto_10clases_200hz.csv",
+      "input_rows": 120226,
+      "output_rows": 24055,
+      "labels": {
+        "anular_menique_apertura": 2413,
+        "anular_menique_cierre": 2431,
+        "apertura": 1222,
+        "cierre": 1200,
+        "indice_medio_apertura": 2411,
+        "indice_medio_cierre": 2448,
+        "pinza": 1607,
+        "pulgar_apertura": 1203,
+        "pulgar_cierre": 1214,
+        "reposo": 7906
+      }
+    },
+    {
+      "source_file": "20260609_204323_S001_trial-1_piloto_10clases.csv",
+      "output_file": "20260609_204323_S001_trial-1_piloto_10clases_200hz.csv",
+      "input_rows": 120162,
+      "output_rows": 24043,
+      "labels": {
+        "anular_menique_apertura": 2422,
+        "anular_menique_cierre": 2450,
+        "apertura": 1203,
+        "cierre": 1207,
+        "indice_medio_apertura": 2420,
+        "indice_medio_cierre": 2454,
+        "pinza": 1612,
+        "pulgar_apertura": 1206,
+        "pulgar_cierre": 1211,
+        "reposo": 7858
+      }
+    },
+    {
+      "source_file": "20260609_205714_S001_trial-1_piloto_10clases.csv",
+      "output_file": "20260609_205714_S001_trial-1_piloto_10clases_200hz.csv",
+      "input_rows": 120513,
+      "output_rows": 24111,
+      "labels": {
+        "anular_menique_apertura": 2457,
+        "anular_menique_cierre": 2439,
+        "apertura": 1209,
+        "cierre": 1210,
+        "indice_medio_apertura": 2421,
+        "indice_medio_cierre": 2430,
+        "pinza": 1628,
+        "pulgar_apertura": 1225,
+        "pulgar_cierre": 1221,
+        "reposo": 7871
+      }
+    },
+    {
+      "source_file": "20260609_210138_S001_trial-1_piloto_10clases.csv",
+      "output_file": "20260609_210138_S001_trial-1_piloto_10clases_200hz.csv",
+      "input_rows": 119741,
+      "output_rows": 23959,
+      "labels": {
+        "anular_menique_apertura": 2434,
+        "anular_menique_cierre": 2438,
+        "apertura": 1205,
+        "cierre": 1209,
+        "indice_medio_apertura": 2449,
+        "indice_medio_cierre": 2411,
+        "pinza": 1622,
+        "pulgar_apertura": 1211,
+        "pulgar_cierre": 1217,
+        "reposo": 7763
+      }
+    },
+    {
+      "source_file": "20260609_210412_S001_trial-1_piloto_10clases.csv",
+      "output_file": "20260609_210412_S001_trial-1_piloto_10clases_200hz.csv",
+      "input_rows": 120369,
+      "output_rows": 24085,
+      "labels": {
+        "anular_menique_apertura": 2428,
+        "anular_menique_cierre": 2443,
+        "apertura": 1225,
+        "cierre": 1203,
+        "indice_medio_apertura": 2423,
+        "indice_medio_cierre": 2427,
+        "pinza": 1609,
+        "pulgar_apertura": 1223,
+        "pulgar_cierre": 1227,
+        "reposo": 7877
+      }
+    },
+    {
+      "source_file": "20260609_211640_S001_trial-1_piloto_10clases.csv",
+      "output_file": "20260609_211640_S001_trial-1_piloto_10clases_200hz.csv",
+      "input_rows": 120800,
+      "output_rows": 24170,
+      "labels": {
+        "anular_menique_apertura": 2444,
+        "anular_menique_cierre": 2454,
+        "apertura": 1234,
+        "cierre": 1222,
+        "indice_medio_apertura": 2429,
+        "indice_medio_cierre": 2450,
+        "pinza": 1613,
+        "pulgar_apertura": 1222,
+        "pulgar_cierre": 1222,
+        "reposo": 7880
+      }
+    },
+    {
+      "source_file": "20260609_233925_S001_trial-1_piloto_10clases.csv",
+      "output_file": "20260609_233925_S001_trial-1_piloto_10clases_200hz.csv",
+      "input_rows": 119610,
+      "output_rows": 23933,
+      "labels": {
+        "anular_menique_apertura": 2428,
+        "anular_menique_cierre": 2446,
+        "apertura": 1219,
+        "cierre": 1220,
+        "indice_medio_apertura": 2425,
+        "indice_medio_cierre": 2419,
+        "pinza": 1613,
+        "pulgar_apertura": 1208,
+        "pulgar_cierre": 1199,
+        "reposo": 7756
+      }
+    },
+    {
+      "source_file": "20260609_234228_S001_trial-1_piloto_10clases.csv",
+      "output_file": "20260609_234228_S001_trial-1_piloto_10clases_200hz.csv",
+      "input_rows": 119735,
+      "output_rows": 23955,
+      "labels": {
+        "anular_menique_apertura": 2413,
+        "anular_menique_cierre": 2441,
+        "apertura": 1204,
+        "cierre": 1205,
+        "indice_medio_apertura": 2427,
+        "indice_medio_cierre": 2440,
+        "pinza": 1620,
+        "pulgar_apertura": 1213,
+        "pulgar_cierre": 1219,
+        "reposo": 7773
+      }
+    }
+  ]
+}

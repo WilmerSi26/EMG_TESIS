@@ -1,0 +1,28 @@
+{
+  "created_at": "2026-06-19T01:12:02",
+  "input_dir": "D:\\ESPOCH\\TESIS\\CARACTERIZACION_FINAL\\data\\final_10clases",
+  "valid_dir": "D:\\ESPOCH\\TESIS\\CARACTERIZACION_FINAL\\data\\final_10clases_valid",
+  "file_count": 37,
+  "valid_file_count": 34,
+  "excluded_file_count": 3,
+  "valid_subjects": [
+    "S001",
+    "S002",
+    "S003",
+    "S004"
+  ],
+  "valid_rows": 545012,
+  "expected_labels": [
+    "reposo",
+    "apertura",
+    "cierre",
+    "pulgar_apertura",
+    "pulgar_cierre",
+    "indice_medio_apertura",
+    "indice_medio_cierre",
+    "anular_menique_apertura",
+    "anular_menique_cierre",
+    "pinza"
+  ],
+  "audit_csv": "D:\\ESPOCH\\TESIS\\CARACTERIZACION_FINAL\\results\\metrics\\final_dataset_audit.csv"
+}

@@ -1,0 +1,6 @@
+modelo,origen,exactitud_test,exactitud_decimal,epocas,ventana,stride,clases,tflite,tamano_tflite,nota_embebida
+RandomForest baseline,Modelo base local de validacion rapida,78.61%,0.786094,-,40,10,10,No aplica,-,No es candidato directo para XIAO; sirve como referencia de escritorio.
+Tiny MLP TFLite,Modelo compacto local para despliegue embebido,63.16%,0.631595,100,40,10,10,OK,6.8 KB,Candidato embebido minimo por tamano y simplicidad.
+CNN1D iyeleswarapu adaptado,Adaptado desde iyeleswarapu/emg-gesture-recognition,72.66%,0.726585,56,40,10,10,OK,35.6 KB,Mejor candidato profundo para probar en TFLite/TFLite Micro por no usar LSTM.
+CNN-LSTM ocjorge adaptado,Adaptado desde ocjorge/CNN-LSTM,78.26%,0.782618,42,40,10,10,Fallo conversion builtin,-,Bueno para escritorio; la LSTM fallo al convertir a TFLite builtin.
+Inception-LSTM laboratorioAI adaptado,Inspirado en laboratorioAI/2023-HGR5-CNN_LSTM,74.38%,0.743763,35,40,10,10,Fallo conversion builtin,-,Referencia temporal; no conviene como primer despliegue en XIAO por LSTM.

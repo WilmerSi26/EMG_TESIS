@@ -1,0 +1,339 @@
+{
+  "created_at": "2026-06-18T21:54:01",
+  "source_dir": "D:\\ESPOCH\\TESIS\\CODEX\\CARACTERIZACIOIN\\data\\raw",
+  "output_dir": "D:\\ESPOCH\\TESIS\\CARACTERIZACION_FINAL\\data\\pilot_remap_14_to_10",
+  "include_glob": "20260609_*_S001_trial-1_rutina_4ch.csv",
+  "source_file_count": 16,
+  "output_file_count": 16,
+  "classes": [
+    "reposo",
+    "apertura",
+    "cierre",
+    "pulgar_apertura",
+    "pulgar_cierre",
+    "indice_medio_apertura",
+    "indice_medio_cierre",
+    "anular_menique_apertura",
+    "anular_menique_cierre",
+    "pinza"
+  ],
+  "global_counts": {
+    "anular_menique_apertura": 195005,
+    "anular_menique_cierre": 195141,
+    "apertura": 97772,
+    "cierre": 97244,
+    "indice_medio_apertura": 194519,
+    "indice_medio_cierre": 194854,
+    "pinza": 129549,
+    "pulgar_apertura": 97729,
+    "pulgar_cierre": 97570,
+    "reposo": 630876
+  },
+  "files": [
+    {
+      "source_file": "20260609_092541_S001_trial-1_rutina_4ch.csv",
+      "output_file": "20260609_092541_S001_trial-1_piloto_10clases.csv",
+      "input_rows": 126417,
+      "output_rows": 121328,
+      "dropped_rows": 5089,
+      "labels": {
+        "anular_menique_apertura": 12174,
+        "anular_menique_cierre": 12105,
+        "apertura": 6129,
+        "cierre": 6207,
+        "indice_medio_apertura": 12278,
+        "indice_medio_cierre": 12113,
+        "pinza": 8014,
+        "pulgar_apertura": 6192,
+        "pulgar_cierre": 6233,
+        "reposo": 39883
+      }
+    },
+    {
+      "source_file": "20260609_092751_S001_trial-1_rutina_4ch.csv",
+      "output_file": "20260609_092751_S001_trial-1_piloto_10clases.csv",
+      "input_rows": 126203,
+      "output_rows": 121190,
+      "dropped_rows": 5013,
+      "labels": {
+        "anular_menique_apertura": 12178,
+        "anular_menique_cierre": 12043,
+        "apertura": 6187,
+        "cierre": 6038,
+        "indice_medio_apertura": 12152,
+        "indice_medio_cierre": 12283,
+        "pinza": 8340,
+        "pulgar_apertura": 6234,
+        "pulgar_cierre": 6108,
+        "reposo": 39627
+      }
+    },
+    {
+      "source_file": "20260609_095329_S001_trial-1_rutina_4ch.csv",
+      "output_file": "20260609_095329_S001_trial-1_piloto_10clases.csv",
+      "input_rows": 126397,
+      "output_rows": 121310,
+      "dropped_rows": 5087,
+      "labels": {
+        "anular_menique_apertura": 12196,
+        "anular_menique_cierre": 12298,
+        "apertura": 6219,
+        "cierre": 6008,
+        "indice_medio_apertura": 12126,
+        "indice_medio_cierre": 12092,
+        "pinza": 8114,
+        "pulgar_apertura": 6255,
+        "pulgar_cierre": 6062,
+        "reposo": 39940
+      }
+    },
+    {
+      "source_file": "20260609_095538_S001_trial-1_rutina_4ch.csv",
+      "output_file": "20260609_095538_S001_trial-1_piloto_10clases.csv",
+      "input_rows": 126018,
+      "output_rows": 120932,
+      "dropped_rows": 5086,
+      "labels": {
+        "anular_menique_apertura": 12122,
+        "anular_menique_cierre": 12141,
+        "apertura": 6028,
+        "cierre": 6106,
+        "indice_medio_apertura": 12156,
+        "indice_medio_cierre": 12215,
+        "pinza": 8074,
+        "pulgar_apertura": 6072,
+        "pulgar_cierre": 6146,
+        "reposo": 39872
+      }
+    },
+    {
+      "source_file": "20260609_095754_S001_trial-1_rutina_4ch.csv",
+      "output_file": "20260609_095754_S001_trial-1_piloto_10clases.csv",
+      "input_rows": 126551,
+      "output_rows": 121338,
+      "dropped_rows": 5213,
+      "labels": {
+        "anular_menique_apertura": 12297,
+        "anular_menique_cierre": 12298,
+        "apertura": 6266,
+        "cierre": 6233,
+        "indice_medio_apertura": 12283,
+        "indice_medio_cierre": 12163,
+        "pinza": 8056,
+        "pulgar_apertura": 6040,
+        "pulgar_cierre": 6104,
+        "reposo": 39598
+      }
+    },
+    {
+      "source_file": "20260609_102908_S001_trial-1_rutina_4ch.csv",
+      "output_file": "20260609_102908_S001_trial-1_piloto_10clases.csv",
+      "input_rows": 125982,
+      "output_rows": 120942,
+      "dropped_rows": 5040,
+      "labels": {
+        "anular_menique_apertura": 12311,
+        "anular_menique_cierre": 12177,
+        "apertura": 6068,
+        "cierre": 5996,
+        "indice_medio_apertura": 12264,
+        "indice_medio_cierre": 12188,
+        "pinza": 8128,
+        "pulgar_apertura": 6148,
+        "pulgar_cierre": 6100,
+        "reposo": 39562
+      }
+    },
+    {
+      "source_file": "20260609_103116_S001_trial-1_rutina_4ch.csv",
+      "output_file": "20260609_103116_S001_trial-1_piloto_10clases.csv",
+      "input_rows": 126312,
+      "output_rows": 121352,
+      "dropped_rows": 4960,
+      "labels": {
+        "anular_menique_apertura": 12158,
+        "anular_menique_cierre": 12229,
+        "apertura": 6205,
+        "cierre": 6077,
+        "indice_medio_apertura": 12118,
+        "indice_medio_cierre": 12275,
+        "pinza": 8185,
+        "pulgar_apertura": 6207,
+        "pulgar_cierre": 6138,
+        "reposo": 39760
+      }
+    },
+    {
+      "source_file": "20260609_103324_S001_trial-1_rutina_4ch.csv",
+      "output_file": "20260609_103324_S001_trial-1_piloto_10clases.csv",
+      "input_rows": 125670,
+      "output_rows": 120711,
+      "dropped_rows": 4959,
+      "labels": {
+        "anular_menique_apertura": 12393,
+        "anular_menique_cierre": 12159,
+        "apertura": 6077,
+        "cierre": 6212,
+        "indice_medio_apertura": 12155,
+        "indice_medio_cierre": 12157,
+        "pinza": 8040,
+        "pulgar_apertura": 6045,
+        "pulgar_cierre": 6048,
+        "reposo": 39425
+      }
+    },
+    {
+      "source_file": "20260609_201151_S001_trial-1_rutina_4ch.csv",
+      "output_file": "20260609_201151_S001_trial-1_piloto_10clases.csv",
+      "input_rows": 125236,
+      "output_rows": 120226,
+      "dropped_rows": 5010,
+      "labels": {
+        "anular_menique_apertura": 12062,
+        "anular_menique_cierre": 12154,
+        "apertura": 6109,
+        "cierre": 5998,
+        "indice_medio_apertura": 12049,
+        "indice_medio_cierre": 12232,
+        "pinza": 8034,
+        "pulgar_apertura": 6011,
+        "pulgar_cierre": 6069,
+        "reposo": 39508
+      }
+    },
+    {
+      "source_file": "20260609_204323_S001_trial-1_rutina_4ch.csv",
+      "output_file": "20260609_204323_S001_trial-1_piloto_10clases.csv",
+      "input_rows": 125146,
+      "output_rows": 120162,
+      "dropped_rows": 4984,
+      "labels": {
+        "anular_menique_apertura": 12108,
+        "anular_menique_cierre": 12247,
+        "apertura": 6015,
+        "cierre": 6033,
+        "indice_medio_apertura": 12093,
+        "indice_medio_cierre": 12266,
+        "pinza": 8056,
+        "pulgar_apertura": 6028,
+        "pulgar_cierre": 6051,
+        "reposo": 39265
+      }
+    },
+    {
+      "source_file": "20260609_205714_S001_trial-1_rutina_4ch.csv",
+      "output_file": "20260609_205714_S001_trial-1_piloto_10clases.csv",
+      "input_rows": 125575,
+      "output_rows": 120513,
+      "dropped_rows": 5062,
+      "labels": {
+        "anular_menique_apertura": 12280,
+        "anular_menique_cierre": 12192,
+        "apertura": 6043,
+        "cierre": 6050,
+        "indice_medio_apertura": 12099,
+        "indice_medio_cierre": 12148,
+        "pinza": 8138,
+        "pulgar_apertura": 6125,
+        "pulgar_cierre": 6104,
+        "reposo": 39334
+      }
+    },
+    {
+      "source_file": "20260609_210138_S001_trial-1_rutina_4ch.csv",
+      "output_file": "20260609_210138_S001_trial-1_piloto_10clases.csv",
+      "input_rows": 124695,
+      "output_rows": 119741,
+      "dropped_rows": 4954,
+      "labels": {
+        "anular_menique_apertura": 12170,
+        "anular_menique_cierre": 12190,
+        "apertura": 6024,
+        "cierre": 6045,
+        "indice_medio_apertura": 12241,
+        "indice_medio_cierre": 12055,
+        "pinza": 8106,
+        "pulgar_apertura": 6051,
+        "pulgar_cierre": 6081,
+        "reposo": 38778
+      }
+    },
+    {
+      "source_file": "20260609_210412_S001_trial-1_rutina_4ch.csv",
+      "output_file": "20260609_210412_S001_trial-1_piloto_10clases.csv",
+      "input_rows": 125429,
+      "output_rows": 120369,
+      "dropped_rows": 5060,
+      "labels": {
+        "anular_menique_apertura": 12137,
+        "anular_menique_cierre": 12211,
+        "apertura": 6123,
+        "cierre": 6013,
+        "indice_medio_apertura": 12111,
+        "indice_medio_cierre": 12132,
+        "pinza": 8041,
+        "pulgar_apertura": 6111,
+        "pulgar_cierre": 6131,
+        "reposo": 39359
+      }
+    },
+    {
+      "source_file": "20260609_211640_S001_trial-1_rutina_4ch.csv",
+      "output_file": "20260609_211640_S001_trial-1_piloto_10clases.csv",
+      "input_rows": 125792,
+      "output_rows": 120800,
+      "dropped_rows": 4992,
+      "labels": {
+        "anular_menique_apertura": 12219,
+        "anular_menique_cierre": 12269,
+        "apertura": 6168,
+        "cierre": 6106,
+        "indice_medio_apertura": 12142,
+        "indice_medio_cierre": 12245,
+        "pinza": 8061,
+        "pulgar_apertura": 6106,
+        "pulgar_cierre": 6107,
+        "reposo": 39377
+      }
+    },
+    {
+      "source_file": "20260609_233925_S001_trial-1_rutina_4ch.csv",
+      "output_file": "20260609_233925_S001_trial-1_piloto_10clases.csv",
+      "input_rows": 124586,
+      "output_rows": 119610,
+      "dropped_rows": 4976,
+      "labels": {
+        "anular_menique_apertura": 12139,
+        "anular_menique_cierre": 12226,
+        "apertura": 6091,
+        "cierre": 6100,
+        "indice_medio_apertura": 12120,
+        "indice_medio_cierre": 12090,
+        "pinza": 8065,
+        "pulgar_apertura": 6040,
+        "pulgar_cierre": 5995,
+        "reposo": 38744
+      }
+    },
+    {
+      "source_file": "20260609_234228_S001_trial-1_rutina_4ch.csv",
+      "output_file": "20260609_234228_S001_trial-1_piloto_10clases.csv",
+      "input_rows": 124754,
+      "output_rows": 119735,
+      "dropped_rows": 5019,
+      "labels": {
+        "anular_menique_apertura": 12061,
+        "anular_menique_cierre": 12202,
+        "apertura": 6020,
+        "cierre": 6022,
+        "indice_medio_apertura": 12132,
+        "indice_medio_cierre": 12200,
+        "pinza": 8097,
+        "pulgar_apertura": 6064,
+        "pulgar_cierre": 6093,
+        "reposo": 38844
+      }
+    }
+  ],
+  "skipped_files": []
+}

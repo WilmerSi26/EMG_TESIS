@@ -1,0 +1,23 @@
+#pragma once
+#include <cstddef>
+
+const int EMG_NUM_CHANNELS = 4;
+const int EMG_WINDOW_SIZE = 40;
+const int EMG_FEATURE_COUNT = 28;
+const int EMG_CLASS_COUNT = 10;
+
+const float EMG_FEATURE_MEAN[28] = {1772.84973f, 21.9487648f, 1730.81067f, 1824.94507f, 1772.84973f, 1773.1322f, 1081.82202f, 1767.05396f, 42.0938034f, 1681.0321f, 1857.60999f, 1767.05396f, 1767.85291f, 2192.46021f, 1765.78381f, 27.5545273f, 1703.33154f, 1832.82751f, 1765.78381f, 1766.17798f, 1335.51575f, 1750.73535f, 24.7991238f, 1689.38916f, 1811.99036f, 1750.73535f, 1751.01147f, 1165.61108f};
+const float EMG_FEATURE_SCALE[28] = {6.24530506f, 23.2667389f, 42.5454025f, 46.3459549f, 6.24530506f, 7.77208424f, 920.918091f, 2.95286417f, 32.4546394f, 74.3746872f, 67.7641296f, 2.95286417f, 3.09959388f, 1773.04004f, 3.32438064f, 25.1765404f, 73.8309021f, 64.3715591f, 3.32438064f, 3.43964911f, 1224.06152f, 3.40696192f, 18.759779f, 60.9800301f, 48.706974f, 3.40696192f, 3.39590931f, 884.698608f};
+
+const char* const EMG_LABELS[EMG_CLASS_COUNT] = {
+  "anular_menique_apertura",
+  "anular_menique_cierre",
+  "apertura",
+  "cierre",
+  "indice_medio_apertura",
+  "indice_medio_cierre",
+  "pinza",
+  "pulgar_apertura",
+  "pulgar_cierre",
+  "reposo",
+};

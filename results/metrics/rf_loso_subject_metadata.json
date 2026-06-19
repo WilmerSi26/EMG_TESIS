@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-06-19T00:58:17",
+  "input_dir": "data\\final_10clases_valid",
+  "window_size": 40,
+  "stride": 10,
+  "trees": 300,
+  "labels": [
+    "anular_menique_apertura",
+    "anular_menique_cierre",
+    "apertura",
+    "cierre",
+    "indice_medio_apertura",
+    "indice_medio_cierre",
+    "pinza",
+    "pulgar_apertura",
+    "pulgar_cierre",
+    "reposo"
+  ],
+  "subjects": [
+    "S001",
+    "S002",
+    "S003",
+    "S004"
+  ],
+  "source_file_count": 34,
+  "window_count": 48897,
+  "folds": [
+    {
+      "fold": 1,
+      "held_out_subject": "S001",
+      "train_windows": 35920,
+      "test_windows": 12977,
+      "accuracy": 0.17369191646759652
+    },
+    {
+      "fold": 2,
+      "held_out_subject": "S002",
+      "train_windows": 41708,
+      "test_windows": 7189,
+      "accuracy": 0.1626095423563778
+    },
+    {
+      "fold": 3,
+      "held_out_subject": "S003",
+      "train_windows": 34521,
+      "test_windows": 14376,
+      "accuracy": 0.5119643850862549
+    },
+    {
+      "fold": 4,
+      "held_out_subject": "S004",
+      "train_windows": 34542,
+      "test_windows": 14355,
+      "accuracy": 0.3962382445141066
+    }
+  ],
+  "mean_accuracy": 0.311126022106084,
+  "aggregate_accuracy": 0.33685093154999285
+}

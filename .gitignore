@@ -1,0 +1,40 @@
+# Entornos locales
+.venv/
+.venv-tf/
+venv/
+env/
+
+# IDE y sistema
+.idea/
+.vscode/
+Thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Logs y temporales
+*.log
+*.tmp
+*.bak
+*.swp
+~$*
+
+# Artefactos locales generados
+results/tmp/
+results/cache/
+*.onnx
+
+# Cache de librerias Arduino: se conserva el firmware propio, no la libreria extraida
+firmware/arduino_libraries_cache/*_extracted/
+
+# Modelos Random Forest gigantes (>100 MB). Regenerar con los scripts de entrenamiento.
+models/baseline/emg_sklearn_baseline.joblib
+models/baseline_final/emg_sklearn_baseline.joblib
+models/baseline_realtime/emg_sklearn_baseline.joblib
+models/rf_final/emg_rf_final.joblib

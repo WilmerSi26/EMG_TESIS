@@ -1,0 +1,16 @@
+                         precision    recall  f1-score   support
+
+anular_menique_apertura       0.10      0.03      0.05       978
+  anular_menique_cierre       0.26      0.62      0.37       977
+               apertura       0.41      0.44      0.43       976
+                 cierre       0.42      0.13      0.20       975
+  indice_medio_apertura       0.04      0.01      0.02       978
+    indice_medio_cierre       0.26      0.27      0.26       975
+                  pinza       0.57      0.65      0.60      1180
+        pulgar_apertura       0.18      0.17      0.18       977
+          pulgar_cierre       0.05      0.02      0.02       976
+                 reposo       0.75      0.92      0.82      5384
+
+               accuracy                           0.51     14376
+              macro avg       0.30      0.33      0.30     14376
+           weighted avg       0.44      0.51      0.46     14376
